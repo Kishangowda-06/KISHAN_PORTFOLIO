@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kishan P S - Full-Stack Developer & Computer Science Engineering Student at Navkis College of Engineering, Hassan. Explore projects, technical skills, resume, and credentials.">
+  <meta name="keywords" content="Kishan P S, Developer Portfolio, Full-Stack Developer, Computer Science, Navkis College of Engineering, Python, JavaScript, AI, React">
+  <meta name="author" content="Kishan P S">
+  <meta property="og:title" content="Kishan P S | Developer Portfolio & Project Showcase">
+  <meta property="og:description" content="Explore my full-stack engineering projects, AI experiments, resume credentials, and technical skills.">
+  <meta property="og:type" content="website">
+
+  <title>Kishan P S | Full-Stack Developer & CS Engineer</title>
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Glowing Background Orbs -->
+  <div class="ambient-wrapper" aria-hidden="true">
+    <div class="ambient-orb orb-cyan"></div>
+    <div class="ambient-orb orb-purple"></div>
+    <div class="ambient-orb orb-emerald"></div>
+  </div>
+
+  <!-- Site Header & Sticky Glass Navbar -->
+  <header class="site-header" id="navbar">
+    <div class="site-container nav-container">
+      <a href="#home" class="brand-logo" aria-label="Kishan P S Home">
+        <div class="logo-avatar-wrap">
+          <img src="assets/images/kishan-profile.jpg" alt="Kishan P S" class="logo-avatar-img">
+          <span class="logo-online-dot"></span>
+        </div>
+        <span>KISHAN<span>.DEV</span></span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Toolkit</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#certificates" class="nav-link">Credentials</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Header Action Buttons -->
+      <div class="header-actions">
+        <!-- Dark/Light Theme Toggle -->
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Dark and Light theme" title="Toggle Theme">
+          <!-- Sun Icon (shown in light mode) -->
+          <svg class="theme-icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <!-- Moon Icon (shown in dark mode) -->
+          <svg class="theme-icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="#contact" class="header-cta-btn">
+          <span>Let's Talk</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <!-- Mobile Hamburger Button -->
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================================================================
+         Hero Section
+         =================================================================== -->
+    <section class="hero-section" id="home">
+      <div class="site-container hero-grid">
+        <div class="hero-content">
+          <!-- Live Status Indicator -->
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span>AVAILABLE FOR OPPORTUNITIES & PROJECTS</span>
+          </div>
+
+          <h1 class="hero-name">
+            Crafting Digital Solutions with <span class="gradient-text">Precision & Code.</span>
+          </h1>
+
+          <div class="hero-typing-wrap">
+            <span>I am a&nbsp;</span>
+            <span class="hero-typing-text" id="typing-text">Full-Stack Developer</span>
+            <span class="typing-cursor"></span>
+          </div>
+
+          <p class="hero-bio">
+            Hello! I'm <strong>Kishan P S</strong>, a Computer Science Engineering student at <strong>Navkis College of Engineering, Hassan</strong>. I specialize in designing and engineering responsive full-stack applications, robust backend services, and practical AI integrations.
+          </p>
+
+          <!-- Call to Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn-primary">
+              <span>Explore Projects</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="assets/documents/Kishan-PS-Public-Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+              <span>Download Resume</span>
+            </a>
+          </div>
+
+          <!-- Social Quick Links -->
+          <div class="hero-socials">
+            <span>Connect:</span>
+            <a href="https://github.com/Kishangowda-06" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Profile" title="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/kishan-gowda6362606408/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile" title="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="https://www.instagram.com/kishan_gowda_00" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram Profile" title="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="mailto:pskishan9@gmail.com" class="social-icon-btn" aria-label="Email Me" title="pskishan9@gmail.com">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Visual: Interactive Profile & Glass Terminal -->
+        <div class="hero-visual-card">
+          <!-- Glass Author Profile Header -->
+          <div class="hero-author-card">
+            <div class="hero-author-avatar-wrap">
+              <img src="assets/images/kishan-profile.jpg" alt="Kishan P S" class="hero-author-avatar">
+              <span class="author-online-indicator"></span>
+            </div>
+            <div class="hero-author-info">
+              <div class="hero-author-name">Kishan P S</div>
+              <div class="hero-author-role">Full-Stack Developer · CSE Student</div>
+            </div>
+            <div class="hero-author-tag">
+              <span class="status-dot"></span>
+              <span>8.9 CGPA</span>
+            </div>
+          </div>
+
+          <!-- Glass Terminal Container -->
+          <div class="terminal-window">
+            <div class="terminal-header">
+              <div class="window-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="terminal-tabs">
+                <button class="terminal-tab active" id="tab-profile">profile.json</button>
+                <button class="terminal-tab" id="tab-skills">skills.py</button>
+              </div>
+              <button class="terminal-copy-btn" id="copy-code-btn" title="Copy snippet" aria-label="Copy snippet">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              </button>
+            </div>
+
+            <pre class="terminal-body"><code id="terminal-code"><span class="code-keyword">const</span> developer = {
+  <span class="code-prop">name</span>: <span class="code-str">'Kishan P S'</span>,
+  <span class="code-prop">role</span>: <span class="code-str">'Full-Stack Developer'</span>,
+  <span class="code-prop">education</span>: <span class="code-str">'Navkis College of Engg, Hassan'</span>,
+  <span class="code-prop">cgpa</span>: <span class="code-num">8.9</span>,
+  <span class="code-prop">coreFocus</span>: [
+    <span class="code-str">'Full-Stack Web Dev'</span>,
+    <span class="code-str">'Python & Backend APIs'</span>,
+    <span class="code-str">'AI & Machine Learning'</span>
+  ],
+  <span class="code-prop">available</span>: <span class="code-keyword">true</span>
+};
+<span class="code-comment">// Ready to turn ambitious ideas into reliable code</span></code></pre>
+
+            <div class="terminal-footer">
+              <div class="terminal-status">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10"/></svg>
+                <span>SYSTEM ONLINE</span>
+              </div>
+              <span>Hassan, Karnataka, India</span>
+            </div>
+          </div>
+
+          <!-- Floating status pill bottom left -->
+          <div class="hero-floating-pill pill-bottom-left">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <span>Elewayte AI Certified</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         About Section
+         =================================================================== -->
+    <section class="section-wrapper" id="about">
+      <div class="site-container">
+        <div class="section-header">
+          <span class="section-tag">01 / DISCOVERY</span>
+          <h2 class="section-title">Curiosity Engineered into <span class="gradient-text">Practical Reality.</span></h2>
+          <p class="section-subtitle">A quick introduction to my background, academic journey, and engineering mindset.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Dedicated Profile Showcase Card -->
+          <div class="glass-panel about-profile-card">
+            <div class="about-avatar-frame">
+              <div class="about-avatar-glow"></div>
+              <img src="assets/images/kishan-profile.jpg" alt="Kishan P S - Full-Stack Developer" class="about-avatar-img">
+              <span class="about-avatar-status">
+                <span class="status-dot"></span>
+                <span>Available to Hire</span>
+              </span>
+            </div>
+
+            <h3 class="about-name">Kishan P S</h3>
+            <div class="about-role-tag">Full-Stack Developer</div>
+            <p class="about-college-text">
+              Computer Science & Engineering<br>
+              <strong>Navkis College of Engineering</strong>, Hassan
+            </p>
+
+            <div class="about-card-metrics">
+              <div class="mini-metric">
+                <span class="mini-val">8.9</span>
+                <span class="mini-lbl">CGPA</span>
+              </div>
+              <div class="mini-metric">
+                <span class="mini-val">5+</span>
+                <span class="mini-lbl">Projects</span>
+              </div>
+              <div class="mini-metric">
+                <span class="mini-val">5</span>
+                <span class="mini-lbl">Certs</span>
+              </div>
+            </div>
+
+            <div class="about-card-actions">
+              <a href="assets/documents/Kishan-PS-Public-Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn-primary btn-sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+                <span>Resume</span>
+              </a>
+              <a href="#contact" class="btn-secondary btn-sm">
+                <span>Connect</span>
+              </a>
+            </div>
+
+            <!-- Spoken Languages Box -->
+            <div class="languages-pill-box" style="width: 100%; margin-top: 5px;">
+              <span class="lang-title">Languages:</span>
+              <div class="lang-tags">
+                <span class="lang-badge">English</span>
+                <span class="lang-badge">Kannada</span>
+                <span class="lang-badge">Hindi</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Narrative Bio & Stats Grid -->
+          <div class="about-right-col">
+            <div class="glass-panel about-card">
+              <p class="about-text">
+                I am currently pursuing a <strong>Bachelor of Engineering in Computer Science and Engineering</strong> at <strong>Navkis College of Engineering, Hassan</strong>. With a strong academic standing of <strong>8.9 CGPA</strong>, I cultivate a discipline of deep technical learning paired with pragmatic software craftsmanship.
+              </p>
+              <p class="about-text">
+                My technical foundation spans <strong>Python, Java, C/C++, HTML5, CSS3, and modern JavaScript</strong>. I am enthusiastic about building full-stack platforms, developing clean RESTful APIs, and implementing applied Machine Learning models to solve real problems.
+              </p>
+              <p class="about-text">
+                Whether architecting college academic workflows in <strong>Academic Admin Hub</strong>, designing secure healthcare concepts in <strong>MedShield</strong>, or exploring behavioral biometrics in <strong>NeuraGuard</strong>, my approach is centered on writing structured code that delivers real user value.
+              </p>
+
+              <!-- Highlights Checklist -->
+              <div class="about-highlights">
+                <div class="highlight-item">
+                  <svg class="highlight-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <div>
+                    <h3 class="highlight-title">Full-Stack Development</h3>
+                    <p class="highlight-desc">Modern web apps with responsive design & APIs</p>
+                  </div>
+                </div>
+                <div class="highlight-item">
+                  <svg class="highlight-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <div>
+                    <h3 class="highlight-title">AI & Data Science</h3>
+                    <p class="highlight-desc">Elewayte AI intern & NPTEL Python Data Science</p>
+                  </div>
+                </div>
+                <div class="highlight-item">
+                  <svg class="highlight-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <div>
+                    <h3 class="highlight-title">Data Structures & OOP</h3>
+                    <p class="highlight-desc">Solid computer science & algorithm principles</p>
+                  </div>
+                </div>
+                <div class="highlight-item">
+                  <svg class="highlight-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <div>
+                    <h3 class="highlight-title">Team Collaboration</h3>
+                    <p class="highlight-desc">Agile mindset, clear communication & curiosity</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Stats Counter Grid Below Narrative -->
+            <div class="stats-grid">
+              <div class="glass-panel stat-box">
+                <div class="stat-number" data-target="8.9">8.9</div>
+                <div class="stat-label">Academic CGPA / Score</div>
+              </div>
+              <div class="glass-panel stat-box">
+                <div class="stat-number" data-target="5">5<span>+</span></div>
+                <div class="stat-label">Engineering Projects</div>
+              </div>
+              <div class="glass-panel stat-box">
+                <div class="stat-number" data-target="5">5</div>
+                <div class="stat-label">Verified Certifications</div>
+              </div>
+              <div class="glass-panel stat-box">
+                <div class="stat-number" data-target="100">100<span>%</span></div>
+                <div class="stat-label">Dedication to Code</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         Skills & Technical Toolkit Section
+         =================================================================== -->
+    <section class="section-wrapper" id="skills">
+      <div class="site-container">
+        <div class="section-header">
+          <span class="section-tag">02 / TOOLKIT</span>
+          <h2 class="section-title">Technologies & <span class="gradient-text">Core Competencies.</span></h2>
+          <p class="section-subtitle">Languages, libraries, frameworks, and engineering tools I leverage to engineer functional software.</p>
+        </div>
+
+        <!-- Filter navigation -->
+        <div class="skills-filter-nav">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="frontend">Frontend & Web</button>
+          <button class="filter-btn" data-filter="backend">Backend & Languages</button>
+          <button class="filter-btn" data-filter="database">Databases & Cloud</button>
+          <button class="filter-btn" data-filter="aiml">AI & Data Science</button>
+          <button class="filter-btn" data-filter="tools">Tools & Core CS</button>
+        </div>
+
+        <!-- Skills Category Cards Grid -->
+        <div class="skills-grid">
+          <!-- 1. Frontend -->
+          <div class="glass-panel skill-category-card" data-category="frontend">
+            <div class="skill-card-top">
+              <div class="skill-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <div>
+                <h3 class="skill-card-title">Frontend & UI</h3>
+                <span class="skill-card-count">5 Core Technologies</span>
+              </div>
+            </div>
+            <div class="skill-chips">
+              <span class="skill-chip">HTML5</span>
+              <span class="skill-chip">CSS3 (Grid/Flexbox)</span>
+              <span class="skill-chip">JavaScript (ES6+)</span>
+              <span class="skill-chip">React.js</span>
+              <span class="skill-chip">Tailwind CSS</span>
+              <span class="skill-chip">Glassmorphic UI</span>
+            </div>
+          </div>
+
+          <!-- 2. Backend & Languages -->
+          <div class="glass-panel skill-category-card" data-category="backend">
+            <div class="skill-card-top">
+              <div class="skill-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+              </div>
+              <div>
+                <h3 class="skill-card-title">Backend & Languages</h3>
+                <span class="skill-card-count">6 Technologies</span>
+              </div>
+            </div>
+            <div class="skill-chips">
+              <span class="skill-chip">Python</span>
+              <span class="skill-chip">Java (OOP)</span>
+              <span class="skill-chip">C / C++</span>
+              <span class="skill-chip">Node.js</span>
+              <span class="skill-chip">Express</span>
+              <span class="skill-chip">RESTful APIs</span>
+            </div>
+          </div>
+
+          <!-- 3. Databases & Modeling -->
+          <div class="glass-panel skill-category-card" data-category="database">
+            <div class="skill-card-top">
+              <div class="skill-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+              </div>
+              <div>
+                <h3 class="skill-card-title">Databases & DBMS</h3>
+                <span class="skill-card-count">4 Technologies</span>
+              </div>
+            </div>
+            <div class="skill-chips">
+              <span class="skill-chip">MySQL</span>
+              <span class="skill-chip">MongoDB</span>
+              <span class="skill-chip">SQLite</span>
+              <span class="skill-chip">Relational Schema Design</span>
+              <span class="skill-chip">NPTEL DBMS Certified</span>
+            </div>
+          </div>
+
+          <!-- 4. AI & Data Science -->
+          <div class="glass-panel skill-category-card" data-category="aiml">
+            <div class="skill-card-top">
+              <div class="skill-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/><circle cx="12" cy="12" r="3"/></svg>
+              </div>
+              <div>
+                <h3 class="skill-card-title">AI & Data Science</h3>
+                <span class="skill-card-count">5 Competencies</span>
+              </div>
+            </div>
+            <div class="skill-chips">
+              <span class="skill-chip">Machine Learning</span>
+              <span class="skill-chip">Python for Data Science</span>
+              <span class="skill-chip">NumPy & Pandas</span>
+              <span class="skill-chip">Computer Vision (Basics)</span>
+              <span class="skill-chip">AI Model Pipelines</span>
+            </div>
+          </div>
+
+          <!-- 5. Core Computer Science -->
+          <div class="glass-panel skill-category-card" data-category="tools">
+            <div class="skill-card-top">
+              <div class="skill-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              </div>
+              <div>
+                <h3 class="skill-card-title">Core CS Fundamentals</h3>
+                <span class="skill-card-count">4 Domains</span>
+              </div>
+            </div>
+            <div class="skill-chips">
+              <span class="skill-chip">Data Structures & Algo</span>
+              <span class="skill-chip">Object-Oriented Design</span>
+              <span class="skill-chip">Database Management Systems</span>
+              <span class="skill-chip">Problem Solving</span>
+            </div>
+          </div>
+
+          <!-- 6. Developer Tools & Platforms -->
+          <div class="glass-panel skill-category-card" data-category="tools">
+            <div class="skill-card-top">
+              <div class="skill-card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+              </div>
+              <div>
+                <h3 class="skill-card-title">Tools & Deployment</h3>
+                <span class="skill-card-count">6 Tools</span>
+              </div>
+            </div>
+            <div class="skill-chips">
+              <span class="skill-chip">Git & GitHub</span>
+              <span class="skill-chip">VS Code</span>
+              <span class="skill-chip">Vercel & Netlify</span>
+              <span class="skill-chip">Postman</span>
+              <span class="skill-chip">ESP32 IoT</span>
+              <span class="skill-chip">Command Line / Bash</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         Experience & Education Section
+         =================================================================== -->
+    <section class="section-wrapper" id="experience">
+      <div class="site-container">
+        <div class="section-header">
+          <span class="section-tag">03 / JOURNEY</span>
+          <h2 class="section-title">Experience & <span class="gradient-text">Academic Foundation.</span></h2>
+          <p class="section-subtitle">Real-world internship experience and disciplined engineering education.</p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <div class="timeline-line"></div>
+
+          <!-- Experience Item 1: Elewayte AI Internship -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="glass-panel timeline-card">
+              <div class="timeline-badge-row">
+                <span class="timeline-type">Professional Internship</span>
+                <span class="timeline-period">August 2026 – September 2026</span>
+              </div>
+              <h3 class="timeline-role">Artificial Intelligence Intern</h3>
+              <h4 class="timeline-company">Elewayte · Partner: CubesTech</h4>
+              <p class="timeline-description">
+                Engaged in an intensive AI internship completing hands-on project workflows, AI/ML task assignments, data preparation, algorithm evaluation, and practical exposure to industry software standards and delivery pipelines.
+              </p>
+              <div class="timeline-meta-chips">
+                <span class="meta-chip">Certificate ID: IC820266408</span>
+                <span class="meta-chip">Machine Learning</span>
+                <span class="meta-chip">Python Workflow</span>
+                <span class="meta-chip">Verified Credential</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience Item 2: Navkis College of Engineering -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="glass-panel timeline-card">
+              <div class="timeline-badge-row">
+                <span class="timeline-type">Formal Degree Education</span>
+                <span class="timeline-period">2023 – Present</span>
+              </div>
+              <h3 class="timeline-role">Bachelor of Engineering — Computer Science & Engineering</h3>
+              <h4 class="timeline-company">Navkis College of Engineering, Hassan</h4>
+              <p class="timeline-description">
+                Actively pursuing B.E. in Computer Science with a strong academic score of <strong>8.9 CGPA</strong>. Deepening expertise in Data Structures, Algorithms, DBMS, Operating Systems, Full-Stack Web Development, and applied computing.
+              </p>
+              <div class="timeline-meta-chips">
+                <span class="meta-chip">Academic Standing: 8.9 CGPA</span>
+                <span class="meta-chip">Hassan, Karnataka</span>
+                <span class="meta-chip">Full-Stack & Systems Focus</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         Featured Projects Section
+         =================================================================== -->
+    <section class="section-wrapper" id="projects">
+      <div class="site-container">
+        <div class="section-header">
+          <span class="section-tag">04 / PORTFOLIO</span>
+          <h2 class="section-title">Engineered Projects & <span class="gradient-text">Working Builds.</span></h2>
+          <p class="section-subtitle">Real-world software architectures spanning Full-Stack platforms, AI applications, and IoT automation.</p>
+        </div>
+
+        <!-- Project Category Filters -->
+        <div class="projects-filter-bar">
+          <button class="project-filter-btn active" data-filter="all">All Projects</button>
+          <button class="project-filter-btn" data-filter="fullstack">Full-Stack</button>
+          <button class="project-filter-btn" data-filter="aiml">AI & ML</button>
+          <button class="project-filter-btn" data-filter="iot">IoT & Security</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+          <!-- Project 1: Academic Admin Hub (AAH) -->
+          <article class="glass-panel project-card" data-category="fullstack">
+            <div class="project-banner-wrapper">
+              <img src="assets/images/project-aah.svg" alt="Academic Admin Hub Architecture Illustration" class="project-banner-img" loading="lazy">
+              <span class="project-category-tag">Full-Stack · EdTech</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Academic Admin Hub (AAH)</h3>
+              <p class="project-desc">
+                An end-to-end academic operations and administration platform designed for educational institutions to coordinate faculty, students, attendance telemetry, marks recording, and departmental circulars.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">MySQL</span>
+                <span class="project-tag">Node.js</span>
+                <span class="project-tag">JavaScript</span>
+                <span class="project-tag">Glassmorphic UI</span>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="project-btn-detail open-modal-btn" data-project="aah">
+                  <span>Explore Blueprint</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="https://github.com/Kishangowda-06/Academic-Admin-Hub-FullStack" target="_blank" rel="noopener noreferrer" class="project-btn-github" title="View Source on GitHub" aria-label="GitHub Repository">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: MedShield -->
+          <article class="glass-panel project-card" data-category="aiml">
+            <div class="project-banner-wrapper">
+              <img src="assets/images/project-medshield.svg" alt="MedShield Healthcare Security Illustration" class="project-banner-img" loading="lazy">
+              <span class="project-category-tag">AI Healthcare · Security</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">MedShield Healthcare Intelligence</h3>
+              <p class="project-desc">
+                Intelligent healthcare platform integrating encrypted EHR records, emergency triage authorization, seamless doctor appointment workflows, and patient telemetry protection.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">FastAPI</span>
+                <span class="project-tag">AES-256</span>
+                <span class="project-tag">AI Triage</span>
+                <span class="project-tag">REST APIs</span>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="project-btn-detail open-modal-btn" data-project="medshield">
+                  <span>Explore Blueprint</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="https://github.com/Kishangowda-06" target="_blank" rel="noopener noreferrer" class="project-btn-github" title="View Source on GitHub" aria-label="GitHub Repository">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: NeuraGuard -->
+          <article class="glass-panel project-card" data-category="iot">
+            <div class="project-banner-wrapper">
+              <img src="assets/images/project-neuraguard.svg" alt="NeuraGuard Behavioral Biometrics Illustration" class="project-banner-img" loading="lazy">
+              <span class="project-category-tag">Cybersecurity · Biometrics</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">NeuraGuard Behavioral Biometrics</h3>
+              <p class="project-desc">
+                Behavioral cybersecurity system evaluating continuous keystroke dynamics, flight time cadence, and telemetry anomalies to safeguard accounts from automated bot takeover.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">React</span>
+                <span class="project-tag">Python</span>
+                <span class="project-tag">FastAPI</span>
+                <span class="project-tag">Scikit-Learn</span>
+                <span class="project-tag">WebSockets</span>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="project-btn-detail open-modal-btn" data-project="neuraguard">
+                  <span>Explore Blueprint</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="https://github.com/Kishangowda-06" target="_blank" rel="noopener noreferrer" class="project-btn-github" title="View Source on GitHub" aria-label="GitHub Repository">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: SmartClass Automation -->
+          <article class="glass-panel project-card" data-category="iot">
+            <div class="project-banner-wrapper">
+              <img src="assets/images/project-smartclass.svg" alt="SmartClass IoT Automation Illustration" class="project-banner-img" loading="lazy">
+              <span class="project-category-tag">IoT · Smart Campus</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">SmartClass Automation System</h3>
+              <p class="project-desc">
+                IoT energy management system utilizing dual-core ESP32 microcontrollers and sensors to detect room occupancy, automating lights and fans to slash campus power consumption by ~38%.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">ESP32</span>
+                <span class="project-tag">C / C++</span>
+                <span class="project-tag">PIR Sensors</span>
+                <span class="project-tag">MQTT / HTTP</span>
+                <span class="project-tag">Hardware IoT</span>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="project-btn-detail open-modal-btn" data-project="smartclass">
+                  <span>Explore Blueprint</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="https://github.com/Kishangowda-06" target="_blank" rel="noopener noreferrer" class="project-btn-github" title="View Source on GitHub" aria-label="GitHub Repository">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: KrishiMitra AI -->
+          <article class="glass-panel project-card" data-category="aiml">
+            <div class="project-banner-wrapper">
+              <img src="assets/images/project-krishimitra.svg" alt="KrishiMitra AI Crop Vision Illustration" class="project-banner-img" loading="lazy">
+              <span class="project-category-tag">AI Vision · AgriTech</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">KrishiMitra AI Agro-Assistant</h3>
+              <p class="project-desc">
+                Mobile-first agriculture advisory assistant empowering farmers with computer vision crop leaf disease detection, soil moisture telemetry, and customized organic remediation guides.
+              </p>
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">Computer Vision</span>
+                <span class="project-tag">FastAPI</span>
+                <span class="project-tag">React</span>
+                <span class="project-tag">AgriTech AI</span>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="project-btn-detail open-modal-btn" data-project="krishimitra">
+                  <span>Explore Blueprint</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="https://github.com/Kishangowda-06" target="_blank" rel="noopener noreferrer" class="project-btn-github" title="View Source on GitHub" aria-label="GitHub Repository">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         Verified Certifications & Credentials Section
+         =================================================================== -->
+    <section class="section-wrapper" id="certificates">
+      <div class="site-container">
+        <div class="section-header">
+          <span class="section-tag">05 / CREDENTIALS</span>
+          <h2 class="section-title">Verified Certifications & <span class="gradient-text">Recognitions.</span></h2>
+          <p class="section-subtitle">Credentials and diplomas backed by original certificates and verified coursework.</p>
+        </div>
+
+        <div class="certs-grid">
+          <!-- Cert 1: Elewayte AI Internship Certificate -->
+          <div class="glass-panel cert-card">
+            <div class="cert-top-row">
+              <div class="cert-icon-wrap">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <span class="cert-verified-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                Verified
+              </span>
+            </div>
+            <h3 class="cert-title">Artificial Intelligence Internship</h3>
+            <p class="cert-issuer">Elewayte · Partner: CubesTech</p>
+            <p class="cert-details">
+              Hands-on internship credential verifying real-world AI implementation, assignment workflows, and industry standards. Certificate ID: IC820266408 (Aug–Sep 2026).
+            </p>
+            <div class="cert-action-row">
+              <span class="cert-score-chip">Internship Credential</span>
+              <a href="assets/documents/Elewayte-AI-Internship-Certificate.pdf" target="_blank" rel="noopener noreferrer" class="cert-view-btn">
+                <span>View PDF</span>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Cert 2: Elewayte AI Course Certificate -->
+          <div class="glass-panel cert-card">
+            <div class="cert-top-row">
+              <div class="cert-icon-wrap">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+              </div>
+              <span class="cert-verified-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                Verified
+              </span>
+            </div>
+            <h3 class="cert-title">Artificial Intelligence Course</h3>
+            <p class="cert-issuer">Elewayte</p>
+            <p class="cert-details">
+              Comprehensive certification in Artificial Intelligence foundations, machine learning paradigms, model tuning, and data representations (Completed 13 September 2026).
+            </p>
+            <div class="cert-action-row">
+              <span class="cert-score-chip">Course Certified</span>
+              <a href="assets/documents/Artificial-Intelligence-Course-Certificate.pdf" target="_blank" rel="noopener noreferrer" class="cert-view-btn">
+                <span>View PDF</span>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Cert 3: NPTEL Python for Data Science -->
+          <div class="glass-panel cert-card">
+            <div class="cert-top-row">
+              <div class="cert-icon-wrap">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              </div>
+              <span class="cert-verified-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                Verified
+              </span>
+            </div>
+            <h3 class="cert-title">Python for Data Science</h3>
+            <p class="cert-issuer">NPTEL · Swayam Government of India</p>
+            <p class="cert-details">
+              Four-week intensive program covering Python data structures, NumPy array mathematics, Pandas dataframes, exploratory data analysis, and statistical modeling (Jul–Aug 2026).
+            </p>
+            <div class="cert-action-row">
+              <span class="cert-score-chip">Score: 76%</span>
+              <a href="assets/documents/NPTEL-Python-for-Data-Science.pdf" target="_blank" rel="noopener noreferrer" class="cert-view-btn">
+                <span>View PDF</span>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Cert 4: NPTEL Database Management System -->
+          <div class="glass-panel cert-card">
+            <div class="cert-top-row">
+              <div class="cert-icon-wrap">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+              </div>
+              <span class="cert-verified-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                Verified
+              </span>
+            </div>
+            <h3 class="cert-title">Database Management System</h3>
+            <p class="cert-issuer">NPTEL · IIT Kharagpur</p>
+            <p class="cert-details">
+              Eight-week rigorous curriculum in Relational Algebra, SQL, Normalization (1NF–BCNF), Indexing, Transaction ACID properties, and Concurrency Control (Jul–Sep 2026).
+            </p>
+            <div class="cert-action-row">
+              <span class="cert-score-chip">Score: 57%</span>
+              <a href="assets/documents/NPTEL-Database-Management-System.pdf" target="_blank" rel="noopener noreferrer" class="cert-view-btn">
+                <span>View PDF</span>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Cert 5: NPTEL Programming in Java Elite -->
+          <div class="glass-panel cert-card">
+            <div class="cert-top-row">
+              <div class="cert-icon-wrap">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <span class="cert-verified-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+                Elite Grade
+              </span>
+            </div>
+            <h3 class="cert-title">Programming in Java (Elite)</h3>
+            <p class="cert-issuer">IIT Kharagpur · NPTEL</p>
+            <p class="cert-details">
+              Elite designation certification covering Object-Oriented Programming in Java, Multithreading, Exception Handling, Collections Framework, and Java AWT/Swing (Jan–Apr 2026).
+            </p>
+            <div class="cert-action-row">
+              <span class="cert-score-chip">Elite: 70%</span>
+              <a href="assets/documents/Kishan-PS-Public-Resume.pdf" target="_blank" rel="noopener noreferrer" class="cert-view-btn">
+                <span>In Resume</span>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         Contact Section
+         =================================================================== -->
+    <section class="section-wrapper" id="contact">
+      <div class="site-container">
+        <div class="section-header">
+          <span class="section-tag">06 / REACH OUT</span>
+          <h2 class="section-title">Let's Build Something <span class="gradient-text">Exceptional.</span></h2>
+          <p class="section-subtitle">Have an opportunity, internship, or technical project? Reach out directly and let's collaborate.</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Direct Info Card -->
+          <div class="glass-panel contact-info-card">
+            <h3 class="contact-info-title">Get in Touch Directly</h3>
+            <p class="contact-info-desc">
+              I am open to full-stack software development roles, internships, open-source projects, and collaborative technical challenges. Feel free to message me anytime!
+            </p>
+
+            <div class="contact-method-list">
+              <!-- Method 1: Email -->
+              <div class="contact-method-item">
+                <div class="method-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div>
+                  <div class="method-label">Direct Email</div>
+                  <div class="method-value">
+                    <a href="mailto:pskishan9@gmail.com">pskishan9@gmail.com</a>
+                    <button class="copy-email-btn" id="copy-email-btn" title="Copy email address" aria-label="Copy Email">
+                      Copy
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Method 2: Location -->
+              <div class="contact-method-item">
+                <div class="method-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <div class="method-label">Location</div>
+                  <div class="method-value">Hassan, Karnataka, India</div>
+                </div>
+              </div>
+
+              <!-- Method 3: Institution -->
+              <div class="contact-method-item">
+                <div class="method-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                </div>
+                <div>
+                  <div class="method-label">College</div>
+                  <div class="method-value">Navkis College of Engineering</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="hero-socials">
+              <span>Profiles:</span>
+              <a href="https://github.com/Kishangowda-06" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub" title="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+              <a href="https://www.linkedin.com/in/kishan-gowda6362606408/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn" title="LinkedIn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+              <a href="https://www.instagram.com/kishan_gowda_00" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram" title="Instagram">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Contact Form -->
+          <div class="glass-panel contact-form-card">
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Your Name *</label>
+                <input type="text" id="contact-name" class="form-input" placeholder="e.g. Aditi Sharma" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Email Address *</label>
+                <input type="email" id="contact-email" class="form-input" placeholder="e.g. aditi@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subject</label>
+                <input type="text" id="contact-subject" class="form-input" placeholder="Project Inquiry / Job Opportunity">
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message *</label>
+                <textarea id="contact-message" class="form-textarea" placeholder="Tell me about your idea, requirements, or role..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn-submit" id="submit-btn">
+                <span>Send Message</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================================================================
+       Footer
+       =================================================================== -->
+  <footer class="site-footer">
+    <div class="site-container footer-content">
+      <div class="footer-brand">
+        <div class="logo-badge" style="width: 28px; height: 28px; font-size: 0.85rem;">K</div>
+        <span>Kishan P S</span>
+      </div>
+
+      <p class="footer-text">
+        Crafted with Glassmorphism & Modern Web Standards &copy; <span id="copyright-year">2026</span>. All rights reserved.
+      </p>
+
+      <a href="#home" class="back-to-top-btn" aria-label="Back to top of page">
+        <span>BACK TO TOP</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+      </a>
+    </div>
+  </footer>
+
+  <!-- ===================================================================
+       Interactive Project Blueprint Modal Dialog
+       =================================================================== -->
+  <div class="modal-backdrop" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close dialog">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div class="modal-tag" id="modal-tag">CATEGORY</div>
+      <h2 class="modal-title" id="modal-title">Project Name</h2>
+      <p class="modal-overview" id="modal-overview">Detailed architectural overview.</p>
+
+      <h3 class="modal-section-title">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+        Key Architectural Features
+      </h3>
+      <ul class="modal-features-list" id="modal-features">
+        <!-- Injected via JavaScript -->
+      </ul>
+
+      <h3 class="modal-section-title">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        Technologies & Frameworks
+      </h3>
+      <div class="modal-tech-pills" id="modal-tech-pills">
+        <!-- Injected via JavaScript -->
+      </div>
+
+      <div class="modal-actions">
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn-primary" id="modal-github-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          <span>View on GitHub</span>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="btn-secondary" id="modal-demo-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+          <span>Live Demo / Details</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" aria-live="polite"></div>
+
+  <!-- Main JavaScript File -->
+  <script src="js/script.js"></script>
+</body>
+</html>

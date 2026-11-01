@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+    <filter id="avatarGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <rect width="200" height="200" rx="40" fill="#0f172a"/>
+  
+  <!-- Outer glowing ring -->
+  <circle cx="100" cy="100" r="82" fill="none" stroke="url(#avatarGrad)" stroke-width="3" filter="url(#avatarGlow)" stroke-dasharray="8 4"/>
+  <circle cx="100" cy="100" r="74" fill="rgba(255, 255, 255, 0.04)" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1.5"/>
+
+  <!-- Geometric Monogram "KP" -->
+  <g transform="translate(62, 58)">
+    <!-- Letter K -->
+    <path d="M12 8 L12 72 M12 40 L45 8 M20 34 L46 72" 
+          stroke="url(#avatarGrad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Letter P -->
+    <path d="M54 8 L54 72 M54 8 H72 C82 8 88 15 88 25 C88 35 82 42 72 42 H54" 
+          stroke="#38bdf8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Glowing indicator dot -->
+  <circle cx="152" cy="152" r="9" fill="#10b981" stroke="#0f172a" stroke-width="3" filter="url(#avatarGlow)"/>
+</svg>
